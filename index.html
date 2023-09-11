@@ -66,8 +66,14 @@
           </li>
 
           <li>
+            <a href="http://demo.eazyorders.online/" class="btn btn-secondary" target="_blank">View Demo</a>
+          </li>
+
+          <li>
             <a href="#contact" class="btn btn-primary">Get Started</a>
           </li>
+
+         
 
         </ul>
       </nav>
@@ -89,8 +95,13 @@
 
       <!-- 
         - #HERO
-      -->
-
+      --> 
+<style>
+  #getStarted:hover, #viewDemo:hover{
+transform: scale(1.1);
+transition: .5s;
+  }
+</style>
       <section class="section hero" id="home" aria-label="hero">
         <div class="container">
           <div class="hero-content">
@@ -99,7 +110,13 @@
             <p class="hero-text">
               Discover the future of dining with EazyOrder. We're here to simplify restaurant management, providing you with the tools you need to thrive in today's digital age.
             </p>
-            <a href="#contact" class="btn btn-primary">Get Started</a>
+            
+            <button class="btn btn-primary" style="height: 75px;">
+
+            <a href="#contact" id="getStarted">Get started</a>
+            <a href="http://demo.eazyorders.online" target="_blank" id="viewDemo">View Demo</a>
+
+            </button>
           </div>
           <figure class="hero-banner">
             <img src="./assets/images/QR Code-bro.svg" width="720" height="673" alt="hero banner" class="w-100">
